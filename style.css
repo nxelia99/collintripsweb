@@ -654,6 +654,15 @@ p.rules{
         margin-left: 5%;
         
     }
+
+    div.containerquote h1{
+        width: 80%;
+        
+    }
+    .containerquote{
+        transform: translateY(-100%);
+        margin-left: 10%;
+    }
     
     .presentation{
         
@@ -668,6 +677,15 @@ p.rules{
         height: 99%;
         width: 99%;
     }
+        
+    div.containerquote h1{
+        width: 80%;
+        
+    }
+    .containerquote{
+        transform: translateY(-100%);
+        margin-left: 10%;
+    }
 
     .sponsors{
         width: 70%;
@@ -677,6 +695,10 @@ p.rules{
     .card img{
         width: 80%;
         height: 70%;
+    }
+
+    .footer{
+        width: 100%;
     }
 
 

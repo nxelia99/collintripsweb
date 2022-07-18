@@ -639,6 +639,9 @@ p.rules{
         padding: 10px;
         background-color: rhba(0,0,0,0.1);
     }
+    .showcase-text{
+        margin-left:5%;
+    }
     .cli .card{
         margin: auto;
     }
@@ -651,9 +654,26 @@ p.rules{
         margin-left: 5%;
         
     }
+    
     .presentation{
-        margin-right: 5%;
         
+        
+        }
+        .div2{
+            margin-right: 5%;
+            width: 85%;
+        }
+    
+    div.container.grid object{
+        height: 99%;
+        width: 99%;
     }
+
+    .sponsors{
+        width: 70%;
+        height: 40%;
+        margin: auto;
+    }
+
 
 

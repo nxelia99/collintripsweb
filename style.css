@@ -647,5 +647,13 @@ p.rules{
     .div2 p{
         margin: 0 25px;
     }
+     div.showcase-form.card{
+        margin-left: 5%;
+        
+    }
+    .presentation{
+        margin-right: 5%;
+        
+    }
 
 

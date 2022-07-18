@@ -674,6 +674,9 @@ p.rules{
     .presen{
         margin-top: 19%;
     }
+    .sponsors .card{
+        width: 35%;
+    }
 
     
 } 

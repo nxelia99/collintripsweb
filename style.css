@@ -674,6 +674,10 @@ p.rules{
         height: 40%;
         margin: auto;
     }
+    .card img{
+        width: 80%;
+        height: 70%;
+    }
 
 
 

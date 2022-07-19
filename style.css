@@ -546,10 +546,10 @@ p.rules{
         height: auto;
 
     }
-    .shoucase-text{
-        text-align: center;
+    .showcase-text{
         margin-top:40px;
         animation: slideInFromTop 1s ease-in;
+
     }
     .showcase-form{
         justify-self: center;
@@ -613,10 +613,18 @@ p.rules{
     .navbar .flex{
         flex-direction: column;
     }
+    
+    div.showcase-text{
+        margin-top: 3%;
+        margin-left: 6%;
+    }
+    div.showcase-form.card{
+        width: 98%;
+    }
 
     .navbar ul{
-        padding: 10px;
-        background-color: rhba(0,0,0,0.1);
+  
+        background-color: rgba(0,0,0,0.1);
     }
     .cli object{
         margin: auto;

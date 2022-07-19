@@ -199,36 +199,11 @@ img{
 } 
     
    
-/*quote*/
-
-.quote{
-    height: 170px;
-    background-color: rgb(202, 214, 230);
-    opacity: 70%;
-    
-}
-
-.containerquote{
-    width: 100%;
-    position: relative;
-
-}
-
-.containerquote h1{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(200%);
-    font-weight: 600;
-}
-
 
 /* Stats*/
 
 .stats{
-    padding-top: 100px;
+    padding-top: 3%;
     
 
 }
@@ -256,13 +231,6 @@ img{
     grid-row: 1 / span 2;
 }
 
-div.card{
-    margin-left: -25%;
-}
-
-.cli{
-    margin-left: 10%;
-}
 
 /** News */
 
@@ -569,8 +537,7 @@ p.rules{
     .showcase .grid,
     .stats .grid,
     .cli .grid,
-    .cloud .grid 
-    .presen .grid{
+    .cloud .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
@@ -595,6 +562,12 @@ p.rules{
         grid-column: 1;
         grid-column: 1;
     } 
+    
+    .cli object{
+        align-items: center;
+        margin: auto;
+
+    }
 
             
     .stats{
@@ -645,43 +618,27 @@ p.rules{
         padding: 10px;
         background-color: rhba(0,0,0,0.1);
     }
-    .cli {
+    .cli object{
         margin: auto;
-        width: 80%;
+        width: 98%;
     }
 
-    div.container.grid object{
-        height: 99%;
-        width: 99%;
-    }
-
-    
-    
-    .div2 p{
-        margin: 0 25px;
-    }
-    div.showcase-form.card{
-        margin-left: 5%;
-        width: 97%;
-        
-    }
-
-
-
+   
     .footer{
         width: 100%;
     }
     .presen{
         margin-top: 19%;
     }
-       .sponsors .card img{
-        width: 75%;
+    .sponsors .card img{
+        width: 70%;
+        height: 90%;
         }
     .sponsors .card{
-        width: 55%;
+        width: 45%;
         height: 60%;
-    }    
-
+    }  
+  
 
     
 } 

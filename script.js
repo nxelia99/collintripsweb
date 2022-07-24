@@ -7,6 +7,7 @@ checkbox.addEventListener('change', ()=>{
   document.body.classList.toggle('dark');
 })
 
+
 /*Scrollbar */
 
 
@@ -20,4 +21,8 @@ $(document).ready(function () {
       }
     });
   });
-  
+
+  /* dark mode */
+
+
+

@@ -2,16 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Collin's travelling journey</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./utilities.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes, minimal-ui">
-    <meta http-equiv="Content-Type” content="text/html; charset=utf-8">
-	  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <script src="script.js" defer></script>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8“>
+    
+    
 </head>
   <body>
      <!-- Navbar-->
@@ -24,18 +27,13 @@
                     <li><a href="news.html">News</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li class="mode">
-                        <div class="moon-sun">
-                            <i class="bx bx-moon icon moon"></i>
-                            <i class="bx bx-sun icon sun"></i>
-                            </a>
-                        </div> 
-                        <div class="toggle-switch">
-                            <span class="switch"></span>
-                        </div>
-                        
-                    </li>
-
+                    <li><a>
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                      <label for="checkbox" class="label">
+                        <i class='fas fa-sun fa-xs'></i>
+                        <i class="fa-solid fa-moon fa-xs"></i>
+                      </label>
+                    </a></li>
                 </ul>
             </nav>
         </div>
@@ -45,6 +43,7 @@
      <section class="showcase">
         <div class="container grid">
             <div class="showcase-text">
+                
                 <h1>Welcome to Collin's trip journey</h1>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
                     sed do eiusmod tempor incididunt ut labore et dolore <br>
@@ -71,12 +70,14 @@
                 </form>
             </div>
         </div>
+
      </section>
 
     
      <!--Presentation-->
 
     <section class="presen">
+        
         <div class="container flex">
             <div class="grid grid-3 text-center  my-4"></div>
                 <div class="caja1">
@@ -96,12 +97,9 @@
 
     <section class="stats">
         <div class="container">
-                
             <h3 class="stats-heading text-center">
                     Welcome to the most impressing trips you'll ever see. Are you ready?
             </h3>
-                
-            
             <div class="grid grid-3 text-center my-4">
                 <div>
                     <i class="fa-solid fa-user-plus fa-3x"></i>
@@ -127,6 +125,7 @@
     </section>
 
     <!--Cli-->
+
     <section class="cli">
         <div class="container grid">
             <object data="images\aircraft.svg" width="450" height="450"> </object>
@@ -139,6 +138,8 @@
         </div>
     
     </section>
+
+    
 
     <!--News-->
     <section class="news bg-primary my-2 py-2">
@@ -181,7 +182,6 @@
             </div>
         </section>
 
-
         <!--Footer-->
         <footer class="footer bg-dark py-5">
             <div class="container grid grid-3">
@@ -198,16 +198,12 @@
                     </ul>
                 </nav>
                 <div class="social">
-                    <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://github.com/nxelia99"><i class="fab fa-github fa-2x"></i></a>
                     <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
                     <a href="#"><i class="fab fa-telegram fa-2x"></i></a>
                 </div>
             </div>
         </footer>
-   
 
-	<script src="index.js"></script>
-    
-    </script>
   </body>
 </html>

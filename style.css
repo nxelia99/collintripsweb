@@ -425,8 +425,9 @@ p.rules{
 .user-info h5 {
   margin: 0;
 }
-.user-info small {
-  color: #545d7a;
+
+div.user-info small{
+    color: var(--text-color2);
 }
 
 .cardnews:hover {

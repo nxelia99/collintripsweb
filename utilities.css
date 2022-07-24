@@ -1,9 +1,11 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 .container{
     max-width: 1100px;
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
 }
+
 
 .flex{
     display: flex;
@@ -14,14 +16,12 @@
 }
 
 .card{
-    background-color: #fff;
+    background-color: var(--primary-color-light);
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
     padding: 20px;
     margin: 10px;
     color: var(--text-color);
-    
-    
 }
 
 .grid{
@@ -33,6 +33,8 @@
     gap: 20px;
 
 }
+
+
 
 .grid-3{
     grid-template-columns: repeat(3, 1fr);
@@ -201,4 +203,40 @@
 .p-5{
     padding: 4rem;
 }
+
+/* dark mode*/
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  
+.fa-sun {
+  color: white;
+  opacity: 0;
+
+}
+
+
+
+
+.fa-moon {
+  color: rgb(255, 255, 255);
+  display: inline;
+  
+
+}
+
+/*  target the icon*/
+
+.checkbox:checked + .label .fa-sun{
+    display: inline;
+    opacity:100%;
+  }
+  .checkbox:checked + .label .fa-moon{
+    display: none;
+  }
+
+
 

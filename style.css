@@ -241,15 +241,18 @@ div.showcase-form.card h2{
     margin: auto;
 }
 
-
+.stats  .grid i{
+    color:var(--text-color2);
+    }
+    
 .stats .grid p{
     font-size: 20px;
     font-weight: bold;
-    color: var(--text-color);
+    color: var(--text-color2);
 }
 
 .stats .grid h3{
-    color: var(--text-color);
+    color: var(--text-color2);
 }
 
 

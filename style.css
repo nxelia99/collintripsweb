@@ -637,7 +637,7 @@ div.user-info small{
 
 
     .presen{
-        margin-top: 20%;
+        margin-top: 30%;
     }
 
 }
@@ -667,10 +667,12 @@ div.user-info small{
         width: 98%;
     }
     
-    .navbar ul{
-        background-color: rgba(0,0,0,0.1);
+    input.btn.btn-primary{
+        height: 40px;
+        
         
     }
+    
     
     .cli object{
         margin: auto;

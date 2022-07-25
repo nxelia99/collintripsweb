@@ -667,9 +667,8 @@ div.user-info small{
         width: 98%;
     }
     
-    input.btn.btn-primary{
-        height: 15%;
-        width: 30%;
+   input.btn.btn-primary{
+        padding: 5% 10%;
         
         
     }

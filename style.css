@@ -239,6 +239,7 @@ div.showcase-form.card h2{
 .stats-heading{
     max-width: 500px;
     margin: auto;
+    color:var(--text-color2);
 }
 
 .stats  .grid i{

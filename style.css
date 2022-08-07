@@ -938,7 +938,7 @@ div.caja h3{
         width: 95%;
     }
     input[type=submit]{
-        padding: 60px 40px;
+        padding: 60px 40px !important;
     }
 
 

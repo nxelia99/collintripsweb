@@ -929,12 +929,17 @@ div.caja h3{
     }
 
     .showcase-form2{
-        width: auto;
+        width: 80%;
+        margin: auto;
     }
     .estilotextarea2{
         width: 95%;
     }
      .btn-primary{
+        width: 100%;
+        height: 100%;
+    }
+    .btn{
         width: 100%;
         height: 100%;
     }

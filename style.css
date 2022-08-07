@@ -773,7 +773,9 @@ div.showcase-form2.card h2{
 }
 
 
-
+  textarea{
+    font-family: 'Lato', sans-serif;
+  }
 
 
 
@@ -936,7 +938,7 @@ div.caja h3{
         width: 95%;
     }
     input[type=submit]{
-        padding: 40px 20px;
+        padding: 60px 40px;
     }
 
 

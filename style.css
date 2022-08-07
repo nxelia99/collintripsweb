@@ -937,7 +937,7 @@ div.caja h3{
     .estilotextarea2{
         width: 95%;
     }
-    input[type=submit]{
+    .btn-primary{
         padding: 100% 100% !important;
     }
 

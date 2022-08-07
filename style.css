@@ -550,6 +550,10 @@ div.user-info small{
     transform: translate3d(0, 0, 0);
   }
 
+
+
+
+
   /* Animations */
 
   @keyframes slideInFromLeft{
@@ -711,7 +715,62 @@ div.caja1 object{
     
 }
 
+.caja h3{
+    color: var(--text-color2);
+}
 
+.estilotextarea2{
+    resize: none;
+    width: 300px;
+    height: 70px;
+    border: none;
+    margin-right: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--text-color2);
+    background-color: transparent;
+  }
+
+
+div.showcase-form2.card{
+    background-color: var(--secondary-color);
+    
+}
+
+div.showcase-form2.card h2{
+    color: var(--text-color2);
+}
+.showcase-form2{
+    margin-left: 30%;
+    top:60px;
+    height: 390px;
+    width: 400px;
+    padding: 40px;
+    animation: slideInFromLeft 1s ease-in;
+    background-color: var(--primary-color);
+    
+}
+
+.showcase-form2 .form-control{
+    margin: 30px 0;
+    color:var(--text-color2);
+
+}
+
+.showcase-form2 input[type='text'],
+.showcase-form2 input[type="email"]{
+    border: 0;
+    border-bottom:  1px solid var(--secondary-color);
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+    background-color: var(--secondary-color);
+}
+
+.showcase-form2 input:focus{
+    outline: none;
+}
 
 
 
@@ -796,7 +855,6 @@ div.caja h3{
     margin-bottom: 10%;
 }
 
- 
 
 
 }
@@ -870,6 +928,12 @@ div.caja h3{
     
     }
 
+    .showcase-form2{
+        width: auto;
+    }
+    .estilotextarea2{
+        width: 95%;
+    }
 
 
 

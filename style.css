@@ -259,7 +259,7 @@ div.showcase-form.card h2{
 }
 
 
-/** CLI **/
+/** description **/
 .description .grid{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -933,17 +933,17 @@ div.caja h3{
     .estilotextarea2{
         width: 95%;
     }
-     .btn-primary{
+    .btn-primary{
             width: 12.5rem;
 	    margin: 0;
 	    padding: 80% 80%;
     }
-     .showcase{
+    .showcase{
 	     height:70%;
 	     
 	}
-     .navbar ul{
-        margin-left: 7%;
+    .navbar ul{
+        margin-left: 6%;
     }
 
 

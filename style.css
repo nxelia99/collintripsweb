@@ -260,17 +260,17 @@ div.showcase-form.card h2{
 
 
 /** CLI **/
-.cli .grid{
+.description .grid{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
 
 }
-.cli .grid > *:first-child{
+.description .grid > *:first-child{
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
 
-.cli .card h3{
+.description .card h3{
     color: var(--text-color2);
 }
 
@@ -787,7 +787,7 @@ div.showcase-form2.card h2{
     .grid,
     .showcase .grid,
     .stats .grid,
-    .cli .grid,
+    .description .grid,
     .cloud .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -810,11 +810,11 @@ div.showcase-form2.card h2{
     }
 
     
-    .cli .grid > *:first-child{
+    .description .grid > *:first-child{
         grid-column: 1;
         grid-column: 1;
     } 
-    .cli object{
+    .description object{
         align-items: center;
         margin: auto;
 
@@ -883,7 +883,7 @@ div.caja h3{
         margin-left: 6%;
     }
     
-    .cli object{
+    .description object{
         margin: auto;
         width: 98%;
         
@@ -904,11 +904,7 @@ div.caja h3{
         height: 60%;
     }  
 
-    input.btn.btn-primary{
-        padding: 5% 10%;
-        
-        
-    }
+
     .media-scroller {
         --_spacer: var(--size-1);
         gap: 60%;

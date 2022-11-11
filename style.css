@@ -412,12 +412,9 @@ div.showcase-form.card h2{
 }
 
 p.rules{
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
-.rules{
-    margin-top: 28px;
-}
 .user {
   display: flex;
   margin-top: auto;
